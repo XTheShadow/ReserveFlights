@@ -1,0 +1,36 @@
+# --- Build Outputs ---
+.gradle/
+build/
+out/
+bin/
+
+# --- IDE Files ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# --- Local Configuration ---
+config.properties
+*.env
+*.properties
+
+# --- Database/Local Files ---
+*.db
+*.sqlite
+
+# --- Logs and Temporary Files ---
+*.log
+*.tmp
+*.swp
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- External Libraries (managed by Gradle) ---
+lib/
+
+# --- Allow Gradle Wrapper (explicitly keep this) ---
+!gradle/wrapper/gradle-wrapper.jar
